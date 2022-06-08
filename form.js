@@ -9,7 +9,7 @@ window.addEventListener("load", function() {
         body: data,
       })
       .then(() => {
-        alert("Success!");
+        location.replace("/request/success.html")
       })
     });
   });
