@@ -32,13 +32,9 @@
 
 <body>
   <div class="content-wrapper">
-    <form 
-  method="POST" 
-  action="https://script.google.com/macros/s/AKfycbxGLkqIr2WnHaKxOZF5Fq-VpTd5sDBBgfTMTUOiysthFW4uJITpFCf_eB0OB4SeMdHQ/exec"
->
-  <input name="Email" type="email" placeholder="Email" required>
-  <input name="Name" type="text" placeholder="Name" required>
-  <button type="submit">Send</button>
+    <form action="https://script.google.com/macros/s/AKfycbxGLkqIr2WnHaKxOZF5Fq-VpTd5sDBBgfTMTUOiysthFW4uJITpFCf_eB0OB4SeMdHQ/exec" method="post" id="my-form">
+        <label>Name: <input type="text" name="Name" required /></label>
+        <input type="submit" value="Submit" />
 </form>
     </div>
     </section>
@@ -48,6 +44,7 @@
   <script src="/main.js"></script>
   <script src="/contentpage.js"></script>
   <script src="sw-loader.js"></script>
+  <script src"form.js"></script>
   
 
 </body>
